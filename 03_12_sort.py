@@ -2,14 +2,14 @@ print("\n")
 l = ["Hoa", "Anh", "Dung", "Cuong", "Binh"]
 
 print("\n\nKet qua: \n\n")
-print(f"Danh sach truoc khi xep: {l}")
+print(f"Danh sách trước khi xếp: {l}")
 
 l.sort()
 
-print(f"Danh sach sau khi xep: {l}")
+print(f"Danh sách sau khi xếp: {l}")
 
 l.sort(reverse=True)
-print(f"Danh sach xep nguoc: {l}")
+print(f"Danh sách xếp ngược: {l}")
 
 l.sort(key=len)
-print(f"Danh sach xep theo do dai ten tang dan: {l}")
+print(f"Danh sach xếp theo độ dài tên tăng dần: {l}")

@@ -3,11 +3,11 @@ l = ["Anh", "Binh", "Cuong", "Dung", "Hoa"]
 
 print("\n\nKet qua: \n\n")
 
-print(f"Danh sach truoc khi them: {l}")
+print(f"Danh sách trước khi thêm: {l}")
 
 l.insert(0, "Anh")
-print(f"Danh sach sau khi them: {l}")
+print(f"Danh sách sau khi thêm: {l}")
 
 # Remove
 l.remove("Anh")
-print(f"Danh sach sau khi xoa: {l}")
+print(f"Danh sách sau khi xóa: {l}")

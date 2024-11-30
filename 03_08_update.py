@@ -5,7 +5,7 @@ l = ["Anh", "Binh", "Cuong", "Dung", "Hoa"]
 
 print("\n\nKet qua: \n\n")
 
-print(f"Danh sach truoc khi sua: {l}")
+print(f"Danh sách trước khi sửa: {l}")
 
 l[0] = "An"
-print(f"Danh sach sau khi sua: {l}")
+print(f"Danh sách sau khi sửa: {l}")
