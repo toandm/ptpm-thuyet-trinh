@@ -1,5 +1,5 @@
 print("\n")
-l = ["Anh", "Binh", "Cuong", "Dung", "Hoa"]
+l = ["Anh", "Bình", "Cường", "Dũng", "Hoa"]
 #      0       1       2        3      4
 #     -5      -4      -3       -2     -1
 

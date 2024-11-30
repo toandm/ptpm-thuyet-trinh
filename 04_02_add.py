@@ -1,12 +1,10 @@
 print("\n")
-s = {"Anh", "Binh", "Cuong"}
+s = {"Anh", "Bình", "Cường"}
 
-
-print("\n\nKet qua: \n\n")
-print(f"Tap hop truoc khi doi: {s}")
+print(f"Tập hợp trước khi đổi:\n{s}")
 
 s.add("Hoa")
-print(f"Tap hop sau khi doi: {s}")
+print(f"\nTập hợp sau khi thêm:\n{s}")
 
 s.remove("Anh")
-print(f"Tap hop sau khi xoa: {s}")
+print(f"\nTập hợp sau khi xoá:\n{s}")
