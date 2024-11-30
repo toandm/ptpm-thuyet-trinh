@@ -1,7 +1,7 @@
 print("\n")
-ds_cs_1 = {"Anh", "Bình", "Cường"}
-ds_cs_2 = {"Bình", "Cường", "Dung"}
+checkin_1 = {"Anh", "Bình", "Cường"}
+checkin_2 = {"Bình", "Cường", "Dũng"}
 
-ds = ds_cs_1.difference(ds_cs_2)
+ds = checkin_1.difference(checkin_2)
 
-print(f"Danh sách chỉ có ở cơ sở 1, không có ở cơ sở 2:\n{ds}")
+print(f"Danh sách chỉ có ở CS1, không có ở CS2:\n{ds}")

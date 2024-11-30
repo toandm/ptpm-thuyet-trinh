@@ -4,7 +4,7 @@ name = "Vân"
 age = 20
 
 # Concat
-print("\nCách 1:")
+print("Cách 1:")
 print("Xin chào " + name + ". Bạn năm nay " + str(age) + " tuổi")
 
 # F-string

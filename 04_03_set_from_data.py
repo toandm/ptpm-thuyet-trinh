@@ -8,19 +8,19 @@ input = [
 ]
 
 # Cach 1
-ds_diem_danh_1 = []
+checkin_1 = []
 for i in input:
     name = i["name"]
-    if name not in ds_diem_danh_1:
-        ds_diem_danh_1.append(name)
-print(f"\nCách 1:\n{ds_diem_danh_1}")
+    if name not in checkin_1:
+        checkin_1.append(name)
+print(f"\nCách 1:\n{checkin_1}")
 
 # Cach 2
-ds_diem_danh_2 = set()
+checkin_2 = set()
 for i in input:
-    ds_diem_danh_2.add(i["name"])
-print(f"\nCách 2:\n{ds_diem_danh_2}")
+    checkin_2.add(i["name"])
+print(f"\nCách 2:\n{checkin_2}")
 
 # Cach 3
-ds_diem_danh_3 = {i["name"] for i in input}
-print(f"\nCách 3:\n{ds_diem_danh_3}")
+checkin_3 = {i["name"] for i in input}
+print(f"\nCách 3:\n{checkin_3}")

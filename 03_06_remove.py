@@ -5,4 +5,7 @@ print(f"Danh sách trước khi xoá:\n{l}")
 
 # Remove
 l.remove("Anh")
-print(f"\nDanh sách sau khi xóa:\n{l}")
+print(f"\nRemove:\n{l}")
+
+l.pop(-1)
+print(f"\nPop:\n{l}")

@@ -9,3 +9,7 @@ print(f"\nCách 1:\n{s1}")
 s2 = set(["Anh", "Bình", "Cường", "Anh"])
 
 print(f"\nCách 2:\n{s2}")
+
+
+# s = {}
+# print(type(s))
