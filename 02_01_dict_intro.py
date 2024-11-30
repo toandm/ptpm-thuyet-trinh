@@ -1,26 +1,26 @@
-d1 = {
-    "chuoi": "vang",
-    "nho": "tim",
-    "dau": "do",
+print("\n")
+
+color = {
+    "chuối": "vàng",
+    "nho"  : "tím",
+    "dâu"  : "đỏ",
 }
 
-d2 = {
-    "chuoi": 100,
-    "nho": 500,
-    "dau": 600,
+price = {
+    "chuối": 100,
+    "nho"  : 500,
+    "dâu"  : 600,
 }
 
-print("\n\nKet qua: \n\n")
+print(f"\nThông tin màu sắc:\n{color}")
+print(f"\nThông tin giá bán:\n{price}")
 
-print(f"Thong tin mau sac hoa qua: {d1}")
-print(f"Thong tin gia ban hoa qua: {d2}")
-
-# Check gia tri trung lap
-d3 = {
-    "chuoi": "vang",
-    "nho": "tim",
-    "dau": "do",
-    "dau": "do",
+# Check giá trị trùng lặp
+color_2 = {
+    "chuối": "vàng",
+    "nho"  : "tím",
+    "dâu"  : "đỏ",
+    "dâu"  : "đen",
 }
 
-print(f"Gia tri cua d3: {d3}")
+print(f"\nGiá trị của color_2 là:\n{color_2}")

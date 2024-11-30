@@ -1,9 +1,9 @@
-t = "Python5@"
-email = "xinchao@gmail.com"
+print("\n")
 
-print("\n\nKet qua: \n\n")
+email = "xinchao@hus.edu.vn"
+mypassword = "Python5@"
 
-print(t)
 print(email)
+print(mypassword)
 
-print(type(t))
+print(type(email))

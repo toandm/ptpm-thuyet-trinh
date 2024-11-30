@@ -1,18 +1,21 @@
-name = "Lan"
-age = 40
-print("\n\nKet qua: \n\n")
+print("\n")
 
-# Error
-print("Xin chao " + name + ". Ban nam nay " + str(age))
+name = "Vân"
+age = 20
 
-# F string
-print(f"Xin chao {name}. Ban nam nay {age}")
+# Concat
+print("\nCách 1:")
+print("Xin chào " + name + ". Bạn năm nay " + str(age) + " tuổi")
 
-# Cau tho
-name_tho = "Thuy Kieu"
+# F-string
+print("\nCách 2:")
+print(f"Xin chào {name}. Bạn năm nay {age} tuổi")
+
+# Multiline F-string
+print("\nCách 3:")
 print(
     f"""
-    Dau long 2 a to nga.
-    {name_tho} la chi, em la Thuy Van.
-"""
+        Đầu lòng hai ả tố nga
+    Thuý Kiều là chị, em là Thuý {name}.
+    """
 )

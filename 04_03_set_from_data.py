@@ -1,3 +1,4 @@
+print("\n")
 input = [
     {"timestamp": "08:00:00", "name": "Anh"},
     {"timestamp": "08:30:00", "name": "Anh"},

@@ -1,3 +1,4 @@
+print("\n")
 s = {"Anh", "Binh", "Cuong"}
 
 print("\n\nKet qua: \n\n")

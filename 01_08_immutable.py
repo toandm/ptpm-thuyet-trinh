@@ -1,4 +1,6 @@
-t = "Python1234@"
-email = "xinchao@gmail.com"
+print("\n")
 
-t[0] = "p"
+email = "xinchao@hus.edu.vn"
+mypassword = "Python5@"
+
+mypassword[0] = "p"
