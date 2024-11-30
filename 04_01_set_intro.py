@@ -1,4 +1,4 @@
-print("\n\nKet qua: \n\n")
+print("\n")
 
 # Cach 1
 s1 = {"Anh", "Binh", "Cuong", "Anh"}

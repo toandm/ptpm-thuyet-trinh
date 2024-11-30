@@ -1,21 +1,21 @@
-d1 = {
-    "chuoi": "vang",
-    "nho": "tim",
-    "dau": "do",
+print("\n")
+
+color = {
+    "chuối": "vàng",
+    "nho"  : "tím",
+    "dâu"  : "đỏ",
 }
 
-d2 = {
-    "chuoi": 100,
-    "nho": 500,
-    "dau": 600,
+price = {
+    "chuối": 100,
+    "nho"  : 500,
+    "dâu"  : 600,
 }
 
-print("\n\nKet qua: \n\n")
+print(f'\nMàu sắc của chuối:\n{color["chuối"]}')
+print(f'\nGiá bán của chuối:\n{price.get("chuối")}')
 
-print(f'Mau sac cua chuoi: {d1["chuoi"]}')
-print(f'Gia ban cua chuoi: {d2.get("chuoi")}')
+# Truy cập key không tồn tại
+print(f'\nGiá bán của xoài:\n{price.get("xoài", "Không có")}')
 
-# Truy cap key khong ton tai
-print(f'Gia ban cua chom chom: {d2.get("chom_chom", "Khong co")}')
-
-print(f'Gia ban cua chom chom: {d2["chom_chom"]}')
+print(f'\nGiá bán của xoài:\n{price["xoài"]}')

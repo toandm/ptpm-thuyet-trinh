@@ -1,3 +1,4 @@
+print("\n")
 ds_cs_1 = {"Anh", "Binh", "Cuong"}
 ds_cs_2 = {"Binh", "Cuong", "Dung"}
 

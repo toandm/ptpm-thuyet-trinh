@@ -1,3 +1,4 @@
+print("\n")
 s = {"Anh", "Binh", "Cuong"}
 
 

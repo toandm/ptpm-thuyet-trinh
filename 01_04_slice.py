@@ -1,5 +1,9 @@
-t = "Python5@"
-email = "xinchao@gmail.com"
-print("\n\nKet qua: \n\n")
+print("\n")
 
-print(f"Chuoi 4 ky tu cuoi cung la '{email[-4:]}'")
+email = "xinchao@hus.edu.vn"
+mypassword = "Python5@"
+
+s = "... @  h  u  s  .  e  d  u  .  v  n" 
+#.......  -10 -9 -8 -7 -6 -5 -4 -3 -2 -1
+
+print(f"6 kí tự cuối cùng là '{email[-6:]}'")

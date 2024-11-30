@@ -1,11 +1,10 @@
+print("\n")
 d = {
-    "chuoi": {"mau": "vang", "gia": 100},
-    "nho": {"mau": "tim", "gia": 500},
-    "dau": {"mau": "do", "gia": 600},
+    "chuối": {"color": "vàng", "price": 100},
+    "nho"  : {"color": "tím",  "price": 500},
+    "dâu"  : {"color": "đỏ",   "price": 600},
 }
 
-print("\n\nKet qua: \n\n")
-
-print(f"Thong tin hoa qua: {d}")
-print(f'Thong tin ve chuoi: {d["chuoi"]}')
-print(f'Mau cua chuoi: {d["chuoi"]["mau"]}')
+print(f"\nThông tin hoa quả:\n{d}")
+print(f'\nThông tin về chuối:\n{d["chuối"]}')
+print(f'\nMàu của chuối:\n{d["chuối"]["color"]}')

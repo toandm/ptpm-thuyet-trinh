@@ -1,27 +1,19 @@
-d1 = {
-    "chuoi": "vang",
-    "nho": "tim",
-    "dau": "do",
+print("\n")
+
+price = {
+    "chuối": 100,
+    "nho"  : 500,
+    "dâu"  : 600,
 }
 
-d2 = {
-    "chuoi": 100,
-    "nho": 500,
-    "dau": 600,
-}
+print("Danh sách tên hoa quả:")
+for k in price.keys():
+    print(k)
 
-print("\n\nKet qua: \n\n")
+print("Danh sách giá hoa quả:")
+for v in price.values():
+    print(v)
 
-print("\nDanh sach ten hoa qua:")
-for i in d1.keys():
-    print(i)
-
-
-print("\nDanh sach mau hoa qua:")
-for i in d1.values():
-    print(i)
-
-
-print("\nDanh sach hoa qua va mau tuong ung:")
-for k, v in d1.items():
-    print(f"Qua {k} co mau {v}")
+print("Danh sách tên và giá hoa quả tương ứng:")
+for k, v in price.items():
+    print(f"Quả {k} có giá {v}k/kg")

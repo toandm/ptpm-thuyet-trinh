@@ -1,10 +1,11 @@
-t = "Python5@"
-email = "xinchao@gmail.com"
-print("\n\nKet qua: \n\n")
+print("\n")
 
-print(len(t))
+email = "xinchao@hus.edu.vn"
+mypassword = "Python5@"
 
-if len(t) >= 8:
-    print("Mat khau hop le")
+print(len(mypassword))
+
+if len(mypassword) >= 8:
+    print("Mật khẩu hợp lệ")
 else:
-    print("Mat khau phai co it nhat 8 ky tu")
+    print("Mật khẩu cần ít nhất 8 kí tự")

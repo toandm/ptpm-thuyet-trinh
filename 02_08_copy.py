@@ -1,36 +1,18 @@
-# Int
-a = 1
-b = a
+print("\n")
 
-print("\n\nKet qua: \n\n")
-
-print(f"a truoc khi doi: {a}")
-print(f"b truoc khi doi: {b}")
-
-a = 2
-
-print(f"a sau khi doi: {a}")
-print(f"b sau khi doi: {b}")
-
-# Dictionary
-
-d1 = {
-    "chuoi": "vang",
-    "nho": "tim",
-    "dau": "do",
+color_1 = {
+    "chuối": "vàng",
+    "nho"  : "tím"
 }
 
-d2 = d1
-d3 = d1.copy()
+color_2 = color_1
 
-print("\n\nKet qua: \n\n")
+print("Trước khi đổi:")
+print(f"Color_1: {color_1}")
+print(f"Color_2: {color_2}")
 
-print(f"d1 truoc khi doi: {d1}")
-print(f"d2 truoc khi doi: {d2}")
-print(f"d3 truoc khi doi: {d3}")
+color_1["chuối"] = "xanh"
 
-d1["chuoi"] = "den"
-
-print(f"d1 sau khi doi: {d1}")
-print(f"d2 sau khi doi: {d2}")
-print(f"d3 sau khi doi: {d3}")
+print("\nSau khi đổi:")
+print(f"Color_1: {color_1}")
+print(f"Color_2: {color_2}")

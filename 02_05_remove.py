@@ -1,23 +1,19 @@
-d1 = {
-    "chuoi": "vang",
-    "nho": "tim",
-    "dau": "do",
+print("\n")
+
+color = {
+    "chuối": "vàng",
+    "nho"  : "tím",
+    "dâu"  : "đỏ",
 }
 
-d2 = {
-    "chuoi": 100,
-    "nho": 500,
-    "dau": 600,
+price = {
+    "chuối": 100,
+    "nho"  : 500,
+    "dâu"  : 600,
 }
 
-print("\n\nKet qua: \n\n")
+print(f"\nThông tin trước khi đổi:\n{price}")
 
-print(f"Thong tin mau sac truoc khi doi: {d1}")
-print(f"Thong tin gia ban truoc khi doi: {d2}")
+color.pop("dau")
 
-d1.pop("chuoi")
-d2.pop("chuoi")
-
-
-print(f"Thong tin mau sac sau khi doi: {d1}")
-print(f"Thong tin gia ban sau khi doi: {d2}")
+print(f"\nThông tin sau khi đổi:\n{price}")

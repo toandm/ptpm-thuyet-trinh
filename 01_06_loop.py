@@ -1,22 +1,19 @@
-t = "Python5@"
-email = "xinchao@gmail.com"
-print("\n\nKet qua: \n\n")
+print("\n")
+
+email = "xinchao@hus.edu.vn"
+mypassword = "Python5@"
 
 has_upper = False
-has_lower = False
-has_digit = False
-for i in t:
+
+for i in mypassword:
     if i.isupper():
         has_upper = True
-    elif i.islower():
-        has_lower = True
-    elif i.isdigit():
-        has_digit = True
-if not has_upper:
-    print("Mat khau phai co chu cai viet hoa")
-elif not has_lower:
-    print("Mat khau phai co chu cai viet thuong")
-elif not has_digit:
-    print("Mat khau phai co it nhat 1 chu so")
+
+if has_upper is False:
+    print("Mật khẩu chưa hợp lệ.")
 else:
-    print("Mat khau hop le")
+    print("Mật khẩu hợp lệ.")
+
+
+# islower()
+# isdigit()
