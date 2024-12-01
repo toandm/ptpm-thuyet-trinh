@@ -1,9 +1,7 @@
 print("\n")
-ds_cs_1 = {"Anh", "Binh", "Cuong"}
-ds_cs_2 = {"Binh", "Cuong", "Dung"}
+checkin_1 = {"Anh", "Bình", "Cường"}
+checkin_2 = {"Bình", "Cường", "Dũng"}
 
-print("\n\nKet qua: \n\n")
+ds = checkin_1.difference(checkin_2)
 
-ds = ds_cs_1.difference(ds_cs_2)
-
-print(f"Danh sach chi o co so 1, khong o co so 2: {ds}")
+print(f"Danh sách chỉ có ở CS1, không có ở CS2:\n{ds}")

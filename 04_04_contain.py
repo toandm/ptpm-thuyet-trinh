@@ -1,10 +1,8 @@
 print("\n")
-s = {"Anh", "Binh", "Cuong"}
-
-print("\n\nKet qua: \n\n")
+s = {"Anh", "Bình", "Cường"}
 
 name = "Anh"
 if name in s:
-    print(f"'{name}' co di lam")
+    print(f"\n'{name}' có đi làm")
 else:
-    print(f"'{name}' khong di lam")
+    print(f"\n'{name}' không đi làm")

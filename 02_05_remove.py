@@ -1,11 +1,5 @@
 print("\n")
 
-color = {
-    "chuối": "vàng",
-    "nho"  : "tím",
-    "dâu"  : "đỏ",
-}
-
 price = {
     "chuối": 100,
     "nho"  : 500,
@@ -14,6 +8,6 @@ price = {
 
 print(f"\nThông tin trước khi đổi:\n{price}")
 
-color.pop("dau")
+price.pop("dâu")
 
 print(f"\nThông tin sau khi đổi:\n{price}")

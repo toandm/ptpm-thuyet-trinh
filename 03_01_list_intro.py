@@ -1,12 +1,10 @@
-print("\n")
-
 # Cách 1
-l1 = ["Anh", "Binh", "Cuong", "Dung", "Hoa"]
+hoc_vien = ["Anh", "Bình", "Cường", "Dũng", "Hoa"]
 
-print(f"Danh sách học sinh tạo theo cách 1: {l1}")
+print(f"\nCách 1:\n{hoc_vien}")
 
 # Cách 2
-t = "Anh,Binh,Cuong,Dung,Hoa"
-l2 = t.split(",")
+danh_sach = "Anh,Bình,Cường,Dũng,Hoa"
+hoc_vien = danh_sach.split(",")
 
-print(f"Danh sách học sinh tạo theo cách 2: {l2}")
+print(f"\nCách 2:\n{hoc_vien}")

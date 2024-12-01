@@ -1,7 +1,7 @@
 print("\n")
 
 email = "xinchao@hus.edu.vn"
-mypassword = "Python5@"
+mypassword = "python5@"
 
 has_upper = False
 

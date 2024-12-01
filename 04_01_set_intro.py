@@ -1,11 +1,15 @@
 print("\n")
 
 # Cach 1
-s1 = {"Anh", "Binh", "Cuong", "Anh"}
+s1 = {"Anh", "Bình", "Cường", "Anh"}
 
-print(f"Danh sach nhan vien tao theo cach 1: {s1}")
+print(f"\nCách 1:\n{s1}")
 
 # Cach 2
-s2 = set(["Anh", "Binh", "Cuong", "Anh"])
+s2 = set(["Anh", "Bình", "Cường", "Anh"])
 
-print(f"Danh sach nhan vien tao theo cach 2: {s2}")
+print(f"\nCách 2:\n{s2}")
+
+
+# s = {}
+# print(type(s))

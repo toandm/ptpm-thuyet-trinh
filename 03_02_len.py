@@ -1,6 +1,4 @@
 print("\n")
-l = ["Anh", "Binh", "Cuong", "Dung", "Hoa"]
-
-print("\n\nKet qua: \n\n")
+l = ["Anh", "Bình", "Cường", "Dũng", "Hoa"]
 
 print(f"Số lượng học viên: {len(l)}")

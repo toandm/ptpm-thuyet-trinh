@@ -1,9 +1,13 @@
 print("\n")
-l = ["Anh", "Binh", "Cuong", "Dung", "Hoa"]
+l = ["Anh", "Bình", "Cường", "Dũng", "Hoa"]
 
-print("\n\nKet qua: \n\n")
+print(f"Danh sách trước khi thêm:\n{l}")
 
-print(f"Danh sách trước khi thêm: {l}")
+l.append("Yến")
+print(f"\nAppend:\n{l}")
 
-l.append("Yen")
-print(f"Danh sách sau khi thêm: {l}")
+l.extend(["Mai", "Lan"])
+print(f"\nExtend:\n{l}")
+
+l.insert(0, "Anh")
+print(f"\nInsert:\n{l}")
