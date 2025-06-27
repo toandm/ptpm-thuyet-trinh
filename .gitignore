@@ -1,2 +1,4 @@
 .venv
 toan_test_*
+tests
+.vscode
